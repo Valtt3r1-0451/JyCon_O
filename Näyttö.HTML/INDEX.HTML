@@ -1,29 +1,20 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <style>
-body {
-    background-color: #343333;
-}
-
-h2,p {
-    color: white;
-}
-
 body {
   margin: 0;
   padding: 0;
+  background-color: #343333;
+  font-family: sans-serif;
 }
-h2, p {
-  margin: 10px;
+
+.header {
+  height: 800px;
+  position: relative;
 }
-.title {
-    position: fixed;
-    left: 0;
-    padding-left: 15px;
-    margin-top: 15px;
-}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -31,7 +22,16 @@ ul {
   background-color: #3c3c3c;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
+
+ul h1 {
+  position: absolute;
+  left: 15px;
+  color: white;
+  font-size: xxx-large;
+}
+
 ul li a {
   display: block;
   color: white;
@@ -44,27 +44,60 @@ ul li a:hover {
   background-color: #ff7b00;
 }
 
-ul p {
-    font-size: xxx-large;
-    color: white;
-    float: right;
+h2 {
+  font-size: 80px;
+  color: white;
+}
+
+.Adiv {
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 700px;
+  height: 250px;
+  font-size: xx-large;
+  padding-left: 20px;
+  margin: 20px;
+}
+
+.Bdiv {
+  position: absolute;
+  top: 95px;
+  right: 0;
+  background-image: url('JyCon_tausta.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: left;
+  width: 500px;
+  height: 800px;
+  font-size: xx-large;
+  padding-left: 20px;
 }
 </style>
 </head>
 <body>
 
-<ul>
-  <p class="title">JyCon<p>
-  <li><a href="#etusivu">Etusivu</a></li>
-  <li><a href="#palvelut">Palvelut</a></li>
-  <li><a href="#osaaminen">Osaaminen</a></li>
-  <li><a href="#ura">Ura</a></li>
-  <li><a href="#Yhteystiedot">Yhteystiedot</a></li>
-</ul>
+<div class="header">
+  <ul>
+    <h1>JyCon</h1>
+    <li><a href="#etusivu">Etusivu</a></li>
+    <li><a href="#palvelut">Palvelut</a></li>
+    <li><a href="#osaaminen">Osaaminen</a></li>
+    <li><a href="#ura">Ura</a></li>
+    <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+  </ul>
 
-<h2>Kuva</h2>
+  <div class="Bdiv">
+  </div>
+</div>
 
-<p>Tekstiä</p>
+<div class="Adiv">
+  <p>Jycon on nuorten osaajien ohjelmisto- ja testausstudio, joka yhdistää tuoreen ajattelun ja ammattilaisohjauksen. Toteutamme ketteriä ja kustannustehokkaita digiratkaisuja, web-sovelluksia ja testauspalveluita startupeille ja pk-yrityksille, jotka arvostavat laatua ja nopeaa toteutusta.</p>
+</div>
 
 </body>
 </html>
+
