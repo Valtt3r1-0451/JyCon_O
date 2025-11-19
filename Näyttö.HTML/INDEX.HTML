@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="style.css">
 <style>
+
 body {
   margin: 0;
   padding: 0;
@@ -11,8 +12,12 @@ body {
 }
 
 .header {
-  height: 800px;
+  height: 100px;
   position: relative;
+}
+
+div ol li {
+  font-size: x-large;
 }
 
 ul {
@@ -40,13 +45,28 @@ ul li a {
   font-size: xx-large;
 }
 
+div p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 ul li a:hover {
   background-color: #ff7b00;
 }
 
+div h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: xx-large;
+}
+
 h2 {
-  font-size: 80px;
+  font-size: 88px;
   color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
 }
 
 .Adiv {
@@ -54,49 +74,124 @@ h2 {
   background-color: #3c3c3c;
   color: white;
   text-align: left;
-  width: 700px;
-  height: 250px;
+  width: 55%;
+  height: 215px;
   font-size: xx-large;
-  padding-left: 20px;
-  margin: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+  float: left;
+}
+
+.Bdiv img {
+  width: 100%;
+  height: auto;
 }
 
 .Bdiv {
   position: absolute;
-  top: 95px;
+  top: 97px;
   right: 0;
   background-image: url('JyCon_tausta.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
+  color: #ff7b00;
   text-align: left;
-  width: 500px;
-  height: 800px;
+  width: 310px;
+  height: 590px;
   font-size: xx-large;
   padding-left: 20px;
 }
-</style>
-</head>
-<body>
 
-<div class="header">
-  <ul>
-    <h1>JyCon</h1>
-    <li><a href="#etusivu">Etusivu</a></li>
-    <li><a href="#palvelut">Palvelut</a></li>
-    <li><a href="#osaaminen">Osaaminen</a></li>
-    <li><a href="#ura">Ura</a></li>
-    <li><a href="#yhteystiedot">Yhteystiedot</a></li>
-  </ul>
+.Bdiv .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff7b00;
+  color: black;
+  font-size: 15px;
+  padding: 20px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Bdiv .btn:hover {
+  background-color: rgb(255, 178, 95);
+  color: #000000;
+}
+
+.Cdiv {
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 55%;
+  height: 215px;
+  font-size: xx-large;
+  margin-left: 10px;
+  margin-top: 20px;
+  float: left;
+}
+
+.Ddiv {
+  position: absolute;
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 21%;
+  height: 84%;
+  font-size: 34px;
+  margin-left: 56.5%;
+  top: 50;
+  margin-bottom: 100%;
+  float:right;
+}
+
+</style>
+  <div class="header">
+    <ul>
+      <h1>JyCon</h1>
+      <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/INDEX.HTML">Etusivu</a></li>
+      <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/Palvelut.HTML">Palvelut</a></li>
+      <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/osaaminen.HTML">Osaaminen</a></li>
+      <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/ura.HTML">Ura</a></li>
+      <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/yhteystiedot.HTML">Yhteystiedot</a></li>
+    </ul>
+                          
+  <div class="Bdiv">
+  
+  </div>
+  </div>
+  <h2>Liity mukaan tänään</h2>
+  <div class="Adiv">
+    <p>Jycon on nuorten osaajien ohjelmisto- ja testausstudio, joka yhdistää tuoreen ajattelun ja ammattilaisohjauksen. Toteutamme ketteriä ja kustannustehokkaita digiratkaisuja, web-sovelluksia ja testauspalveluita startupeille ja pk-yrityksille, jotka arvostavat laatua ja nopeaa toteutusta.</p>
+  </div>
+
+  <div class="Cdiv">
+    <h3>Miksi JyCon</h3>
+    <ol>
+      <li>Joustava ja ketterä tiimi</li>
+      <li>Nuorten osaajien tuore näkökulma</li>
+      <li>Jatkuvaa oppimista ja kehittymistä</li>
+      <li>Ei perinteinen konsulttitalo, vaan kasvualusta tulevaisuuden osaajille!</li>
+    </ol>
+  </div>
+
+  <div class="Ddiv">
+    <p>Jycon Oy – Nuorten osaajien ohjelmisto- ja testausstudio – laatua, ketteryyttä ja uutta ajattelua.
+  Ketterää ohjelmistokehitystä ja laadunvarmistusta startupeille ja pk-yrityksille.
+  Nuoret osaajat – raikkaat ideat – kilpailukykyiset ratkaisut.</p>
+  </div>
 
   <div class="Bdiv">
+  <a class="btn" href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/yhteystiedot.HTML">
+    <p>ota yhteyttä</p>
+    </a>
   </div>
-</div>
-
-<div class="Adiv">
-  <p>Jycon on nuorten osaajien ohjelmisto- ja testausstudio, joka yhdistää tuoreen ajattelun ja ammattilaisohjauksen. Toteutamme ketteriä ja kustannustehokkaita digiratkaisuja, web-sovelluksia ja testauspalveluita startupeille ja pk-yrityksille, jotka arvostavat laatua ja nopeaa toteutusta.</p>
-</div>
 
 </body>
 </html>
