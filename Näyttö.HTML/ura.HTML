@@ -91,59 +91,51 @@ h4 {
 
 #tekstialue_ET {
   resize: none;
-  height: 40px;
+  height: 50px;
   width: 250px;
   font-size: large;
   margin-left: 5%;
+  margin-bottom: 30px;
   border: 3px solid #ff7b00;
+  position: relative;
 }
 
-#tekstialue_ET:hover {
-  border: 5px solid #ff7b00;
-}
 
 #tekstialue_SU {
   resize: none;
-  height: 40px;
+  height: 50px;
   width: 250px;
   font-size: large;
   margin-left: 5%;
-  margin-top: 3%;
+  margin-top: 0%;
   border: 3px solid #ff7b00;
+  position: relative;
 }
 
-#tekstialue_SU:hover {
-  border: 5px solid #ff7b00;
-}
 
 #tekstialue_PN {
   resize: none;
-  height: 40px;
+  height: 50px;
   width: 250px;
   font-size: large;
   margin-right: 30%;
-  margin-top: -4%;
+  margin-top: -30px;
   border: 3px solid #ff7b00;
   float: right;
+  position: relative;
 }
 
-#tekstialue_PN:hover {
-  border: 5px solid #ff7b00;
-}
 
 #tekstialue_SÄ {
   resize: none;
-  height: 40px;
+  height: 50px;
   width: 250px;
   font-size: large;
   margin-right: 30%;
-  margin-top: -15%;
+  margin-top: -150px;
   border: 3px solid #ff7b00;
   float: right;
-}
-
-#tekstialue_SÄ:hover {
-  border: 5px solid #ff7b00;
+  position: relative;
 }
 
 #tekstialue_HK {
@@ -154,6 +146,7 @@ h4 {
   margin-left: 20%;
   margin-top: 0%;
   border: 3px solid #ff7b00;
+  position: relative;
 }
 
 #tekstialue_HK:hover {
@@ -190,7 +183,7 @@ h4 {
   <p>Haluatko kasvaa ohjelmistoalan ammattilaiseksi? Jycon tarjoaa mahdollisuuden oppia oikeissa asiakasprojekteissa.</p>
   </div>
 <div class="Bdiv">
-<form action="/action_page.php">
+<form action="send.php" method="post">
   <label for="Enimi"></label><br>
   <input placeholder="Etunimi" 
   <textarea id="tekstialue_ET"></textarea><br>
