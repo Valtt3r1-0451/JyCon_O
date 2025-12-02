@@ -183,15 +183,18 @@ h4 {
   width: 33%;
   margin-top: 8%;
   margin-left: 33%;
+  opacity: 0.7;
 }
 
-#lähetä:hover  {
-  background-color: rgb(255, 178, 95);
+#lähetä:hover {
+  opacity: 1;
+  transition: 0.3s;
 }
 
 #lähetä:active {
   border: 3px solid white;
 }
+
 
 </style>
 </head>
@@ -221,19 +224,18 @@ h4 {
 <form action="/action_page.php">
   <label for="Enimi"></label><br>
   <input placeholder="Etunimi" 
-  <textarea id="tekstialue_ET"></textarea><br>
+  <textarea id="tekstialue_ET" required></textarea><br>
   <input placeholder="Sukunimi"
-  <textarea id="tekstialue_SU"></textarea><br>
+  <textarea id="tekstialue_SU" required></textarea><br>
   <input placeholder="Puhelin numero" 
-  <textarea id="tekstialue_PN"></textarea><br>
+  <textarea id="tekstialue_PN" required></textarea><br>
   <input placeholder="Sähköposti" 
-  <textarea id="tekstialue_SÄ"></textarea><br>
+  <textarea id="tekstialue_SÄ" required></textarea><br>
   <input placeholder="Lähetä viesti" 
-  <textarea id="tekstialue_LV" rows="4" cols="50"></textarea><br> 
-  <input type="submit" value="Lähetä" id="lähetä">
+  <textarea id="tekstialue_LV" required></textarea><br> 
+  <input type="submit" value="Lähetä" id="lähetä" required>
 </form>
-
-</div>
+  </div>
 
 </body>
 </html>

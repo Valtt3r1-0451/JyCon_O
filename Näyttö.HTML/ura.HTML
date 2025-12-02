@@ -92,9 +92,9 @@ h4 {
 #tekstialue_ET {
   resize: none;
   height: 50px;
-  width: 250px;
+  width: 24%;
   font-size: large;
-  margin-left: 5%;
+  margin-left: 7%;
   margin-bottom: 30px;
   border: 3px solid #ff7b00;
   position: relative;
@@ -104,66 +104,80 @@ h4 {
 #tekstialue_SU {
   resize: none;
   height: 50px;
-  width: 250px;
+  width: 24%;
   font-size: large;
-  margin-left: 5%;
+  margin-left: 7%;
   margin-top: 0%;
   border: 3px solid #ff7b00;
   position: relative;
 }
 
-
 #tekstialue_PN {
   resize: none;
   height: 50px;
-  width: 250px;
+  width: 24%;
   font-size: large;
-  margin-right: 30%;
-  margin-top: -30px;
+  margin-left: 38%;
+  margin-top: -57px;
   border: 3px solid #ff7b00;
-  float: right;
+  float: left;
   position: relative;
 }
-
 
 #tekstialue_SÄ {
   resize: none;
   height: 50px;
-  width: 250px;
+  width: 24%;
   font-size: large;
-  margin-right: 30%;
-  margin-top: -150px;
+  margin-left: 38%;
+  margin-top: -175px;
   border: 3px solid #ff7b00;
-  float: right;
+  float: left;
   position: relative;
 }
 
 #tekstialue_HK {
   resize: none;
-  height: 75px;
-  width: 250px;
+  height: 125px;
+  width: 24%;
   font-size: large;
-  margin-left: 20%;
-  margin-top: 0%;
+  margin-left: 69%;
+  bottom: 207px;
   border: 3px solid #ff7b00;
+  float: left;
   position: relative;
 }
 
-#tekstialue_HK:hover {
-  border: 5px solid #ff7b00;
-}
-
 #lähetä {
+  position: relative;
   background-color: #ff7b00;
   border: none;
   height: 50px;
   width: 33%;
-  margin-top: 8%;
-  margin-left: 33%;
+  bottom: 150px;
+  margin-left: 35%;
+  opacity: 0.7,;
 }
 
-#lähetä:hover  {
-  background-color: rgb(255, 178, 95);
+#lähetä:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#lähetä:active {
+  border: 3px solid white;
+}
+
+#CV {
+resize: none;
+height: 125px;
+width: 24%;
+font-size: large;
+margin-left: 69%;
+bottom: 207px;
+border: 3px solid #ff7b00;
+float: left;
+position: relative;
 }
 
 </style>
@@ -186,18 +200,21 @@ h4 {
 <form action="send.php" method="post">
   <label for="Enimi"></label><br>
   <input placeholder="Etunimi" 
-  <textarea id="tekstialue_ET"></textarea><br>
+  <textarea id="tekstialue_ET" required></textarea><br>
   <input placeholder="Sukunimi"
-  <textarea id="tekstialue_SU"></textarea><br>
+  <textarea id="tekstialue_SU" required></textarea><br>
   <input placeholder="Puhelin numero" 
-  <textarea id="tekstialue_PN"></textarea><br>
+  <textarea id="tekstialue_PN" required></textarea><br>
   <input placeholder="Sähköposti" 
-  <textarea id="tekstialue_SÄ"></textarea><br>
+  <textarea id="tekstialue_SÄ" required></textarea><br>
   <input placeholder="Hakemus kirje" 
-  <textarea id="tekstialue_HK"></textarea><br> 
-  <input type="submit" value="Lähetä" id="lähetä">
+  <textarea id="tekstialue_HK" required></textarea><br>
+  <input type="file" id="CV" name="CV" multiple><br>
+  <input type="submit" value="Lähetä" id="lähetä" required>
 </form>
   </div>
+
+
 
 </body>
 </html>
