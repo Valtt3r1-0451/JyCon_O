@@ -138,7 +138,7 @@ h4 {
 
 #tekstialue_HK {
   resize: none;
-  height: 125px;
+  height: 86px;
   width: 24%;
   font-size: large;
   margin-left: 69%;
@@ -148,7 +148,7 @@ h4 {
   position: relative;
 }
 
-#lähetä {
+#Lähetä {
   position: relative;
   background-color: #ff7b00;
   border: none;
@@ -156,24 +156,24 @@ h4 {
   width: 33%;
   bottom: 150px;
   margin-left: 35%;
-  opacity: 0.7,;
+  cursor: pointer;
 }
 
-#lähetä:hover {
-  opacity: 1;
-  transition: 0.3s;
+#Lähetä:hover {
+  opacity: 0.8;
 }
 
-#lähetä:active {
+#Lähetä:active {
   border: 3px solid white;
 }
 
 #CV {
 resize: none;
-height: 125px;
-width: 24%;
+height: 25px;
+width: 30%;
 font-size: large;
-margin-left: 69%;
+margin-left: 66%;
+margin-top: 20px;
 bottom: 207px;
 border: 3px solid #ff7b00;
 float: left;
@@ -204,13 +204,13 @@ position: relative;
   <input placeholder="Sukunimi"
   <textarea id="tekstialue_SU" required></textarea><br>
   <input placeholder="Puhelin numero" 
-  <textarea id="tekstialue_PN" required></textarea><br>
+  <textarea id="tekstialue_PN" required></textarea><br>                          
   <input placeholder="Sähköposti" 
   <textarea id="tekstialue_SÄ" required></textarea><br>
   <input placeholder="Hakemus kirje" 
   <textarea id="tekstialue_HK" required></textarea><br>
-  <input type="file" id="CV" name="CV" multiple><br>
-  <input type="submit" value="Lähetä" id="lähetä" required>
+  <input type="file" id="CV" placeholder="Liitä CV" multiple required><br>
+  <input type="submit" value="Lähetä" id="Lähetä" required>
 </form>
   </div>
 
