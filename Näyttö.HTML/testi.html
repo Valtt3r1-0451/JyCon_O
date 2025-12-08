@@ -1,13 +1,186 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #343333;
+  font-family: sans-serif;
+}
 
-<h3>Show a file-select field which allows multiple files:</h3>
-<form action="/action_page.php">
-  <label for="myfile">Select files:</label>
-  <input type="file" id="myfile" name="myfile" multiple><br><br>
-  <input type="submit">
-</form>
+.header {
+  height: 100px;
+  position: relative;
+}
 
+.header li:active {
+  border: 3px solid white;
+}
+
+div p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+ul li a:hover {
+  background-color: #ff7b00;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul h1 {
+  position: absolute;
+  left: 15px;
+  color: white;
+  font-size: xxx-large;
+}
+
+.Bdiv ol li {
+  font-size: 18px;
+}
+
+h2 {
+  color: white;
+  font-size: 70px;
+  margin-left: 40%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.Adiv {
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 80%;
+  height: 200%;
+  font-size: 40px;
+  margin-left: 10%;
+}
+
+.Bdiv {
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 20%;
+  height: 600%;
+  font-size: 23px;
+  margin-left: 4%;
+  margin-top: 5%;
+  float: left;
+}
+
+.Cdiv {
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 20%;
+  height: 600%;
+  font-size: 25px;
+  margin-left: 4%;
+  margin-top: 5%;
+  float: left;
+}
+
+.Ddiv {
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 20%;
+  height: 600%;
+  font-size: 32.6px;
+  margin-left: 4%;
+  margin-top: 5%;
+  float: left;
+}
+
+.Ediv {
+  border: 3px outset #ff7b00;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: left;
+  width: 20%;
+  height: 600%;
+  font-size: 24px;
+  margin-left: 4%;
+  margin-top: 5%;
+  float: left;
+}
+
+h3 {
+  font-size: x-large;
+  margin-left: 3%;
+}  
+
+</style>
+
+<div class="header">
+  <ul>
+    <h1>JyCon</h1>
+    <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/INDEX.HTML">Etusivu</a></li>
+    <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/Palvelut.HTML">Palvelut</a></li>
+    <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/osaaminen.HTML">Osaaminen</a></li>
+    <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/ura.HTML">Ura</a></li>
+    <li><a href="file:///c%3A/Users/valtt/N%C3%A4ytt%C3%B6.HTML/yhteystiedot.HTML">Yhteystiedot</a></li>
+  </ul>
+
+<h2>Osaaminen</h2>
+
+<div class="Adiv">
+  <p>Jyconin tiimi hallitsee monipuolisesti modernin web-kehityksen työkalut ja ympäristöt. Yhdistämme teknisen osaamisen ja käytännönläheisen kehittämisen, jotta asiakkaamme saavat toimivia, skaalautuvia ja helposti ylläpidettäviä digitaalisia ratkaisuja.</p>
+</div>
+<div class="Bdiv">
+  <p>Hallussamme ovat keskeiset verkkokehityksen ja ohjelmistokehityksen teknologiat:</p>
+<ol>
+  <li>HTML5 ja CSS3 – rakenteen ja ulkoasun hallinta nykyaikaisin standardein</li>
+  <li>JavaScript (JS) – interaktiiviset toiminnot ja dynaamiset käyttöliittymät</li>
+  <li>React – moderni frontend-kirjasto, jolla rakennamme nopeita ja responsiivisia käyttöliittymiä</li>
+  <li>Node.js – tehokas palvelinympäristö skaalautuvien sovellusten taustalle</li>
+  <li>SQL – tietokantojen suunnittelu, hallinta ja optimointi (esim. MySQL, PostgreSQL)</li>
+</ol>
+  <p>Ymmärrämme koko kehitysketjun — suunnittelusta julkaisuun ja testaukseen.</p>
+</div>
+<div class="Cdiv">
+<ol>
+  <li>Yritysten verkkosivustot ja palvelut</li>
+  <li>WooCommerce-verkkokaupat</li>
+  <li>Räätälöidyt React-sovellukset</li>
+  <li>Node.js- ja SQL-pohjaiset API- ja tietokantaratkaisut</li>
+  <li>Käyttöliittymätestaus ja laadunvarmistus</li>
+</ol>
+</div>
+<div class="Ddiv">
+  <p>Yhdistämme designin, kehityksen ja testauksen saumattomasti yhteen prosessiin.meidän vahvuutemme on kyky sovittaa oikeat teknologiat asiakkaan tavoitteisiin — ei turhaa monimutkaisuutta, vaan fiksuja, toimivia ratkaisuja</p>
+</div>
+<div class="Ediv">
+  <p>Tarjoamme WordPress- ja WooCommerce-ratkaisuja yrityksille, jotka tarvitsevat:</p>
+  <ol>
+    <li>Selkeän ja muokattavan verkkosivuston tai verkkokaupan</li>
+    <li>Räätälöityjä teemoja ja lisäosia</li>
+    <li>Nopeaa käyttöönottoa ja helppoa ylläpitoa</li>
+  </ol>
+  <p>WordPress on erinomainen alusta, kun halutaan kustannustehokas mutta ammattimainen ratkaisu yrityksen näkyvyyteen ja myyntiin.</p>
+</div>
 </body>
 </html>
