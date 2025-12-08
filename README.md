@@ -7,3 +7,4 @@ Aion myös muokata headeria vähän.
 19.11.2025 olen saanut etusivun ja palvelut osiot valmiiksi. olen kohta myös tehnyt osaaminen osion loppuun.
 26.11.2025 Kaikki muu on valmista paitsi ura osio. kun olen saanut ura osion valmiiksi aion koristella sivua vielä vähän, jonka jälkeen olen valmis.
 3.12.2025 Ura osio on vielä vähän kesken, mutta pitää vielä lisätä tietosuojaseloste.
+8.12.2025 muutin palvelut ja osaaminen alueitten ulko näköä.
