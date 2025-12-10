@@ -9,3 +9,4 @@ Aion myös muokata headeria vähän.
 3.12.2025 Ura osio on vielä vähän kesken, mutta pitää vielä lisätä tietosuojaseloste.
 8.12.2025 muutin palvelut ja osaaminen alueitten ulko näköä.
 9.12.2025 Muutin palvelut ja osaamisen niin että laatikoita on tietokonenäkymässä 2 vierekkäin ja puhelin näkymässä yksi paransin myös puhelin näkymää.
+10.12.2025 korjasin etusivun fontin ja tein osaaminen ja palvelu alueen puhelinmallit valmiiksi ja aloitin muiden puhelin näkynien tekemisen
